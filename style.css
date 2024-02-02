@@ -43,7 +43,7 @@ a {
     padding: 0.2em;
 }
 
-/*Header*/
+/*Billede og overskrifter*/
 
 img {
     max-width: 100%;
@@ -53,12 +53,31 @@ img {
 .overskrifter {
     background-color: #779882;
     padding: 1em;
-    position: absolute;
     width: 100%;
-    top: 420px;
+    top: 500px;
 }
 
 .overskrifter h1, h2 {
     color: white;
     text-align: center;
+}
+
+/*Fællesskabstekst*/
+
+.fallesskab {
+    background-color: #F3F4EF;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 50px;
+}
+
+article h1 {
+    padding-bottom: 30px;
+}
+
+article p {
+    padding: 15px 0;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
 }
