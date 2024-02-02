@@ -6,7 +6,7 @@
 }
 
 h1 {
-    font-size: 35px;
+    font-size: 30px;
 }
 
 h2 {
@@ -68,7 +68,7 @@ img {
     background-color: #F3F4EF;
     padding: 50px;
     display: grid;
-    grid-template-columns: 1fr 300px;
+    grid-template-columns: 1fr 350px;
     gap: 50px;
 }
 
@@ -80,4 +80,35 @@ article p {
     padding: 15px 0;
     letter-spacing: 0.5px;
     line-height: 1.2;
+}
+
+/*Formular*/
+
+.formular {
+    background-color: #425348;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+
+}
+
+.formular h1 {
+    color: white;
+    padding-left: 10px;
+}
+
+input {
+    height: 40px;
+    width: 250px;
+    border-radius: 5% / 40%;
+    margin: 10px;
+    padding-left: 15px;
+}
+
+.tilmeld {
+    padding: 0;
+    background-color: #779882;
+    color: white;
+    font-weight: bold;
 }
