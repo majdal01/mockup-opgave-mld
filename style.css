@@ -63,8 +63,12 @@ i {
 /*Billede og overskrifter*/
 
 img {
-    max-width: 100%;
-    object-position: 0 40px;
+    width: 21cm;
+    height: 380px;
+    object-fit: cover;
+    object-position: 0 30px;
+    display: inline-block;
+    float: left;
 }
 
 .overskrifter {
@@ -72,6 +76,7 @@ img {
     padding: 1em;
     width: 100%;
     top: 500px;
+    display: inline-block;
 }
 
 .overskrifter h1, h2 {
