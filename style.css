@@ -84,8 +84,11 @@ img {
     background-color: #779882;
     padding: 1em;
     width: 100%;
-    top: 500px;
     display: inline-block;
+}
+
+.overskrifter h1 {
+    padding-bottom: 5px;
 }
 
 .overskrifter h1, h2 {
@@ -117,7 +120,7 @@ article p {
 
 .formular {
     background-color: #425348;
-    border-radius: 10%;
+    border-radius: 15% / 10%;
     display: flex;
     flex-direction: column;
     margin-top: 30px;
@@ -140,7 +143,7 @@ Form {
 input {
     height: 40px;
     width: 200px;
-    border-radius: 5% / 40%;
+    border-radius: 5% / 30%;
     margin-bottom: 15px;
     padding-left: 15px;
 }
@@ -181,7 +184,7 @@ input {
     font-size: 0.8em;
     background-color: #779882;
     padding: 10px 20px;
-    border-radius: 15px;
+    border-radius: 10px;
     color: white;
     text-decoration: none;
 }
