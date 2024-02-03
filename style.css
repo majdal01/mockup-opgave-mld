@@ -9,7 +9,7 @@
 body {
     width: 21cm;
     height: 29.7cm;
-    margin: 0 150px;
+    margin: 0 50px;
 }
 
 h1 {
@@ -31,6 +31,16 @@ p {
 
 header {
     width: 21cm;
+}
+
+.head1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.head1 a {
+    font-size: 12px;
 }
 
 header p {
@@ -189,3 +199,11 @@ footer a {
     text-decoration: none;
     color: white;
 }
+
+
+
+@media print {
+    header body footer { 
+        -webkit-print-color-adjust: exact !important;
+    }
+     }
