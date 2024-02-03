@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    color: #3C3C3C;
 }
 
 body {
@@ -12,11 +13,18 @@ body {
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    font-weight: 400;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+p {
+    font-weight: 300;
 }
 
 /*Header*/
@@ -44,9 +52,12 @@ header nav {
 
 a {
     text-decoration: none;
-    color: black;
-    font-size: 2.5em;
+    font-size: 2em;
     padding: 0.2em;
+}
+
+i {
+    color: black;
 }
 
 /*Billede og overskrifter*/
@@ -72,19 +83,20 @@ img {
 
 .fallesskab {
     background-color: #F3F4EF;
-    padding: 50px;
+    padding: 25px;
     display: grid;
-    grid-template-columns: 1fr 350px;
+    grid-template-columns: 1fr 250px;
     gap: 50px;
 }
 
 article h1 {
-    padding-bottom: 30px;
+    padding-bottom: 25px;
 }
 
 article p {
     padding: 10px 0;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.3px;
+    line-height: 1.2em;
 }
 
 /*Formular*/
@@ -94,11 +106,13 @@ article p {
     border-radius: 10%;
     display: flex;
     flex-direction: column;
+    margin-top: 30px;
 }
 
 .formular h1 {
     color: white;
-    padding: 25px 0 0 50px;
+    padding-top: 40px;
+    padding-left: 25px;
 }
 
 Form {
@@ -111,9 +125,9 @@ Form {
 
 input {
     height: 40px;
-    width: 250px;
+    width: 200px;
     border-radius: 5% / 40%;
-    margin: 10px;
+    margin-bottom: 15px;
     padding-left: 15px;
 }
 
