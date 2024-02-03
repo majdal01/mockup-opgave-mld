@@ -139,3 +139,18 @@ input {
     padding: 10px 0;
     letter-spacing: 0.5px;
 }
+
+.hvidafsnit nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px
+}
+
+.hvidafsnit a {
+    display: ;
+    font-size: 0.8em;
+    background-color: #779882;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: white;
+}
