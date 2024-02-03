@@ -30,7 +30,6 @@ p {
 /*Header*/
 
 header {
-    position: fixed;
     width: 21cm;
 }
 
@@ -53,7 +52,7 @@ header nav {
 a {
     text-decoration: none;
     font-size: 2em;
-    padding: 0.2em;
+    padding: 0.2em 0.4em;
 }
 
 i {
@@ -64,9 +63,9 @@ i {
 
 img {
     width: 21cm;
-    height: 380px;
+    height: 300px;
     object-fit: cover;
-    object-position: 0 30px;
+    object-position: 0 -50px;
     display: inline-block;
     float: left;
 }
@@ -146,7 +145,7 @@ input {
 /*Sammentekt*/
 
 .hvidafsnit {
-    padding: 30px 100px;
+    padding: 30px 80px;
 }
 
 .hvidafsnit h1 {
@@ -157,6 +156,7 @@ input {
 .hvidafsnit p {
     padding: 10px 0;
     letter-spacing: 0.5px;
+    line-height: 1.2em;
 }
 
 .hvidafsnit nav {
