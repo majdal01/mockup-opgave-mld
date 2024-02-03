@@ -154,3 +154,12 @@ input {
     border-radius: 15px;
     color: white;
 }
+
+/*Footer*/
+
+footer {
+    background-color: #425348;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px 50px 40px;
+}
