@@ -5,6 +5,12 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    width: 21cm;
+    height: 29.7cm;
+    margin: 0 150px;
+}
+
 h1 {
     font-size: 30px;
 }
@@ -17,7 +23,7 @@ h2 {
 
 header {
     position: fixed;
-    width: 100%;
+    width: 21cm;
 }
 
 header p {
@@ -116,4 +122,20 @@ input {
     background-color: #779882;
     color: white;
     font-weight: bold;
+}
+
+/*Sammentekt*/
+
+.hvidafsnit {
+    padding: 30px 100px;
+}
+
+.hvidafsnit h1 {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.hvidafsnit p {
+    padding: 10px 0;
+    letter-spacing: 0.5px;
 }
